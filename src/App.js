@@ -26,7 +26,13 @@ function App() {
           <Route path='/admin' element={<Admin></Admin>}></Route>
           <Route path='/login' element={<Login></Login>}></Route>
       </Routes>
-      <Footer></Footer>
+      <div className='bg-indigo-700'>
+        <div className='mx-6 md:mx-40 lg:mx-46'> 
+              <Footer></Footer>
+        </div>
+        
+      </div>
+      
     </div>
   );
 }
