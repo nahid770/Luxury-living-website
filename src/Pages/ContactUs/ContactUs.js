@@ -19,7 +19,7 @@ const ContactUs = () => {
             </div>
           </div>
                 <div className=' text-center'>
-                    <textarea type='textarea' placeholder='your message' className='bg-[#F1F3F6] md:w-2/3 w-full h-28 p-3 border-none outline-none rounded-md' ></textarea>
+                    <textarea type='textarea' placeholder='your message' className='bg-[#F1F3F6] w-10/12 md:w-5/12   h-28 p-3 border-none outline-none rounded-md' ></textarea>
                 </div>
 
                 <div className='w-full text-center mt-6'>

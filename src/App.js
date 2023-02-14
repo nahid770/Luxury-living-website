@@ -6,6 +6,7 @@ import ContactUs from './Pages/ContactUs/ContactUs';
 import Home from './Pages/Home/Home/Home';
 import Navber from './Pages/Home/Navber/Navber';
 import Login from './Pages/Login/Login';
+import Register from './Pages/Login/Register';
 import Projects from './Pages/Projects/Projects';
 import Footer from './Pages/Shared/Footer';
 
@@ -25,8 +26,9 @@ function App() {
           <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
           <Route path='/admin' element={<Admin></Admin>}></Route>
           <Route path='/login' element={<Login></Login>}></Route>
+          <Route path='/register' element={<Register></Register>}></Route>
       </Routes>
-      <div className='bg-indigo-700'>
+      <div className='bg-indigo-800'>
         <div className='mx-6 md:mx-40 lg:mx-46'> 
               <Footer></Footer>
         </div>
